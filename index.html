@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moja Strona</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Witaj na mojej stronie 👋</h1>
+    <p>Moje portfolio / blog</p>
+
+    <button id="themeBtn">🌙 Zmień tryb</button>
+  </header>
+
+  <main>
+
+    <section class="card">
+      <h2>🙋 O mnie</h2>
+
+      <textarea placeholder="Napisz coś o sobie..."></textarea>
+    </section>
+
+    <section class="card">
+      <h2>🖼️ Galeria zdjęć</h2>
+
+      <input type="file" id="imageUpload" multiple accept="image/*">
+
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <section class="card">
+      <h2>📞 Kontakt</h2>
+
+      <p>Email: twojemail@example.com</p>
+      <p>Instagram: @twojprofil</p>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Moja Strona
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
