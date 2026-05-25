@@ -3,76 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moja Strona</title>
-
+  <title>Strona Leny</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
-    <h1>Witaj na mojej stronie 👋</h1>
-    <p>Moje portfolio / blog</p>
-
-    <button id="themeBtn">🌙 Zmień tryb</button>
+      <h1>Witaj na mojej stronie!</h1>
+      <p>Projekt stworzony przez Lenę</p>
   </header>
 
   <main>
+      <section class="sekcja-foto">
+          <h2>Moje Zdjęcie</h2>
+          <img src="https://picsum.photos/400/250" alt="Przykładowy obrazek na stronie Leny">
+      </section>
 
-    <section class="sekcja-obrazka">
-      <h2>Mój Obraz</h2>
-      <img src=''https://picsum.photos/400/200'' alt=''Przykładowy obrazek''>
-    </section>
-
-      <textarea placeholder="Napisz coś o sobie..."></textarea>
-    </section>
-
-    <section class="card">
-      <h2>🖼️ Galeria zdjęć</h2>
-
-      <input type="file" id="imageUpload" multiple accept="image/*">
-
-      <div class="gallery" id="gallery"></div>
-    </section>
-
-    <section class=''sekcja-tabeli''>
-      <h2> Przykładowa tabela</h2>
-      <Tabele>
-        <thread> 
-          <tr> 
-            <th>Lp.</th>
-            <th>Nazwa Projekt</th>
-            <th>status</th>
-          </tr>
-        </thread>
-       <tbody>
-      <tr>
-          <td>1.</td>
-          <td>Strona o mnie</td>
-          <td>W trakcie</td>
-      </tr>
-      <tr>
-          <td>2.</td>
-          <td>Portfolio</td>
-          <td>Planowanie</td> 
-         </tr>
-        </tbody>
-       </Tabele>
-    </section>
-      
-        
-    <section class="card">
-      <h2>📞 Kontakt</h2>
-
-      <p>Email: lena@example.com</p>
-      <p>Instagram: @lena</p>
-    </section>
-
+      <section class="sekcja-tabela">
+          <h2>Krótka Tabela</h2>
+          <table>
+              <thead>
+                  <tr>
+                      <th>Lp.</th>
+                      <th>Nazwa elementu</th>
+                      <th>Status</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>1.</td>
+                      <td>Nagłówek i tekst</td>
+                      <td>Gotowe</td>
+                  </tr>
+                  <tr>
+                      <td>2.</td>
+                      <td>Zdjęcie i tabela</td>
+                      <td>Dodane</td>
+                  </tr>
+              </tbody>
+          </table>
+      </section>
   </main>
 
-  <footer>
-    © 2026 Moja Strona
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
